@@ -1,0 +1,21 @@
+
+.Counter {
+    background-color: red;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    columns: 6 300px;
+    height: 250px;
+}
+
+.Controls{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Button {
+    margin: 15px;
+
+}

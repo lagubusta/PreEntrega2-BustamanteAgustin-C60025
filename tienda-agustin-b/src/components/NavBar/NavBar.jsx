@@ -9,8 +9,8 @@ function NavBar() {
         <button>Inicio</button>
         <button>Productos</button>
         <button>Detalle</button>
+        <CartWidget></CartWidget>
       </nav>
-      <CartWidget></CartWidget>
     </>
   )
 }

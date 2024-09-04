@@ -1,10 +1,11 @@
 import './CartWidget.css';
-import carrito from '../../img/extras/carrito.jpeg';
+import carrito from '../../img/extras/carrito.png';
+import ItemCount from '../ItemCount/ItemCount';
 
 function CartWidget () {
     return (
         <>
-        <img src={carrito} alt="carrito de compras"/> 15
+        <img src={carrito} alt="carrito de compras"/> 
         </>
     )
 }
