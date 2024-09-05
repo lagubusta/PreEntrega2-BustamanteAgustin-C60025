@@ -1,5 +1,11 @@
 *{
     background-color: #3333;
-    margin: 0;
+    margin: auto;
 
+}
+
+main{
+    text-align: center;
+    background-color: rgb(68, 68, 68);
+    padding: 10px;
 }
