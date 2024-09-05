@@ -1,11 +1,13 @@
 *{
     background-color: #3333;
     margin: auto;
-
+    text-decoration: none;
+    text-decoration-line: none;
 }
 
-main{
+.App{
     text-align: center;
     background-color: rgb(68, 68, 68);
     padding: 10px;
+    
 }

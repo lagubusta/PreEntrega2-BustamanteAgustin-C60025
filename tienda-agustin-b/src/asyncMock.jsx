@@ -1,15 +1,10 @@
-import Nokia1100 from './img/extras/Productos/Nokia 1100.jpeg';
-import Iphone13 from './img/extras/Productos/Iphone 13.jpeg';
-import SamsungS21 from './img/extras/Productos/Samsung S21.jpeg';
-
-
 const products = [
     {
         id: '1',
         name: 'Iphone 12',
         price: 1000,
         category: 'celular',
-        img: {Iphone13},
+        img:  'https://www.apple.com/autopush/ww/search/modules/iphone/image__cnyoqnzvxxaq_large_2x.jpg?' ,
         stcok: 25,
         description: 'Descripción de Iphone 12'
     },
@@ -18,7 +13,7 @@ const products = [
         name: 'Samsung S21',
         price: 1500,
         category: 'celular',
-        img: {SamsungS21},
+        img: 'https://http2.mlstatic.com/D_NQ_NP_908935-MLA73951078803_012024-O.webp',
         stcok: 10,
         description: 'Descripción de Samsung S21'
     },
@@ -27,7 +22,7 @@ const products = [
         name: 'Nokia 1100',
         price: 500,
         category: 'celular',
-        img: {Nokia1100},
+        img: 'https://http2.mlstatic.com/D_NQ_NP_945186-MLA78245478047_082024-O.webp',
         stcok: 300,
         description: 'Descripción de Nokia 1100'
     },
@@ -45,6 +40,14 @@ export const getProductById = (productId) => {
     return new Promise ((resolve) => {
         setTimeout(()=> {
             resolve(products.find(prod => prod.id === productId))
+        },500)
+    })
+}
+
+export const getProductsCategory = (productCategory) => {
+    return new Promise ((resolve) =>{
+        setTimeout(()=> {
+            resolve(products.find(prod =>prod.category ===productCategory))
         },500)
     })
 }
