@@ -8,7 +8,7 @@ function NavBar() {
     <>
       <nav className='NavBar'>
         <Link to='/'>
-          <h3 className='titulo-Eco'>Ecommerce</h3>
+          <h3>Ecommerce</h3>
         </Link>
         <div className='Categorys'>
           

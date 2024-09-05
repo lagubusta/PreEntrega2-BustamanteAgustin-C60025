@@ -1,0 +1,25 @@
+.contenedor-CardItem{
+    background-color: gray;
+    display: flex;
+    padding: 15px;
+    color: wheat;
+}
+
+.CardItem {
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 5px;
+    background-color: rgb(33, 0, 38);
+    width: 35%;
+    
+}
+.Header{
+    background-color: rgb(40, 0, 67);
+    color: white;
+    padding: 10px;
+}
+
+.ItemImg {
+    width: 200px;
+}

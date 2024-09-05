@@ -5,7 +5,7 @@ import ItemCount from '../ItemCount/ItemCount';
 function CartWidget () {
     return (
         <>
-        <img src={carrito} alt="carrito de compras"/> 
+        <img src={carrito} alt="carrito de compras" className='imgPro'/> 
         </>
     )
 }
